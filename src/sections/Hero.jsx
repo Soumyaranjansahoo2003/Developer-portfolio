@@ -6,7 +6,10 @@ const Hero = () => {
     <section className="relative w-full min-h-screen flex items-center justify-center overflow-hidden pt-20">
       {/* Background Blobs */}
       <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/20 rounded-full mix-blend-screen filter blur-[100px] animate-float opacity-50"></div>
-      <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-accent/20 rounded-full mix-blend-screen filter blur-[100px] animate-float opacity-50" style={{ animationDelay: "2s" }}></div>
+      <div
+        className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-accent/20 rounded-full mix-blend-screen filter blur-[100px] animate-float opacity-50"
+        style={{ animationDelay: "2s" }}
+      ></div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 flex flex-col items-center text-center">
         <motion.div
@@ -38,7 +41,9 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 0.6 }}
           className="text-lg md:text-xl text-gray-400 max-w-2xl mb-10 font-light"
         >
-          I am an enthusiastic recent graduate passionate about building intuitive and beautiful web experiences. Eager to turn creative ideas into responsive applications.
+          I am an enthusiastic recent graduate passionate about building
+          intuitive and beautiful web experiences. Eager to turn creative ideas
+          into responsive applications.
         </motion.p>
 
         <motion.div
@@ -59,6 +64,13 @@ const Hero = () => {
           >
             Contact Me
           </a>
+          <a
+            href="https://docs.google.com/document/d/1q9_yFh2qvmnqqjZd22Nq_2ZnrBZQwc81/edit?usp=drive_link&ouid=110053819716734601743&rtpof=true&sd=true"
+            className="px-8 py-4 bg-transparent border border-white/20 text-white font-semibold rounded-full hover:bg-white/5 transition-all flex items-center justify-center gap-2"
+            target="_blank"
+          >
+            View Resume
+          </a>
         </motion.div>
       </div>
 
@@ -69,7 +81,9 @@ const Hero = () => {
         transition={{ delay: 1.5, duration: 1 }}
         className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2"
       >
-        <span className="text-xs text-gray-500 uppercase tracking-widest">Scroll</span>
+        <span className="text-xs text-gray-500 uppercase tracking-widest">
+          Scroll
+        </span>
         <div className="w-px h-12 bg-gradient-to-b from-gray-500 to-transparent"></div>
       </motion.div>
     </section>

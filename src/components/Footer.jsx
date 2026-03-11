@@ -13,16 +13,16 @@ const Footer = () => {
         </div>
 
         <div className="flex items-center gap-6">
-          <a href="#" className="hover:text-white transition-colors">
+          <a href="https://github.com/Soumyaranjansahoo2003" className="hover:text-white transition-colors" target="_blank">
             <Github size={20} />
           </a>
-          <a href="#" className="hover:text-white transition-colors">
+          <a href="https://www.linkedin.com/in/soumya-ranjan-sahoo-53a607340?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BlbHu0S9aS26gyvhiOGbxlA%3D%3D" className="hover:text-white transition-colors" target="_blank">
             <Linkedin size={20} />
           </a>
           <a href="#" className="hover:text-white transition-colors">
             <Twitter size={20} />
           </a>
-          <a href="#" className="hover:text-white transition-colors">
+          <a href="mailto:srsoumya5678@gmail.com" className="hover:text-white transition-colors">
             <Mail size={20} />
           </a>
         </div>

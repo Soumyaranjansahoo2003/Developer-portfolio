@@ -62,9 +62,9 @@ const About = () => {
           >
             {[
               { label: "Status", value: "Fresher", icon: MonitorPlay },
-              { label: "Completed Projects", value: "15+", icon: Layers },
+              { label: "Completed Projects", value: "5+", icon: Layers },
               { label: "Core Technologies", value: "React/JS", icon: Code2 },
-              { label: "Education", value: "B.Tech", icon: Settings },
+              { label: "Education", value: "MCA", icon: Settings },
             ].map((stat, i) => {
               const Icon = stat.icon;
               return (
