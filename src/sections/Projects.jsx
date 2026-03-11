@@ -8,8 +8,8 @@ const projects = [
     description: "A comprehensive weather forecasting application using the OpenWeather API. Features interactive charts, location-based tracking, and a dynamic UI.",
     tags: ["React", "Chart.js", "TailwindCSS", "API"],
     image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=1000",
-    repo: "#",
-    live: "#",
+    repo: "https://github.com/Soumyaranjansahoo2003/WeatherApp",
+    live: "https://weather-app-mry6.vercel.app/",
   },
   {
     title: "E-Commerce Storefront",
